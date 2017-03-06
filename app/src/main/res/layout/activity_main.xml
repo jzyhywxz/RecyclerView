@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <Button
+        android:text="垂直布局"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vert_button"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp" />
+
+    <Button
+        android:text="水平布局"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hori_button"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp" />
+
+    <Button
+        android:text="网格布局"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid_button"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp" />
+
+    <Button
+        android:text="瀑布流布局"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/staggered_button"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp" />
+</LinearLayout>
